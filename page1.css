@@ -1,0 +1,39 @@
+h5 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.pegimg {
+    width: 8%;
+    border-color: brown;
+    border-radius: 50%;
+}
+
+.anshupic {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+@media(min-width: 450px) {
+    .anshu-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.anshu-body {
+    background-color: color-mix(in srgb, #f5c890 30%, white);
+}
+
+.anshu-opacity {
+    opacity: 0.7;
+}
+
+.anshu-p1 {
+    font-family: cursive;
+}
+
+/*Effects on project 1
+.anshu-effect1:hover {
+    transition: 1s;
+}*/
